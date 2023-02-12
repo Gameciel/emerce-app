@@ -1,0 +1,15 @@
+{
+  "users": [
+    {
+      "fullName": "Dummy Test",
+      "username": "dummy",
+      "email": "dummy@mail.com",
+      "password": "dummy",
+      "role": "user",
+      "id": 1
+    }
+  ],
+  "transactions": [],
+  "products": [],
+  "carts": []
+}
