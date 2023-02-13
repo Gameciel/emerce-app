@@ -4,7 +4,7 @@ export default class ProductDetail extends Component {
 	render() {
 		return (
 			<div>
-				<h1>ProductDetail Page CONTOH</h1>
+				<h1>ProductDetail Page</h1>
 			</div>
 		);
 	}
