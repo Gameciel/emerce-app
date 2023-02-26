@@ -14,7 +14,7 @@ export default class ProductCard extends Component {
 				<div className="mt-2">
 					<div>
 						<h6>{this.props.productData.productName}</h6>
-						<span className="text-muted">{this.props.productData.price}</span>
+						<span className="text-muted">Rp {this.props.productData.price.toLocaleString("id")}</span>
 					</div>
 					<div className="d-flex flex-row justify-content-end">
 						<button className="btn btn-primary mt-2">Add to cart</button>
