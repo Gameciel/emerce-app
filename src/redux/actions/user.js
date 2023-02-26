@@ -1,4 +1,3 @@
-import axios from "axios";
 import Axios from "axios";
 import { API_URL } from "../../constants/API";
 

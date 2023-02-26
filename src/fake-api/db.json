@@ -10,6 +10,111 @@
     }
   ],
   "transactions": [],
-  "products": [],
+  "products": [
+    {
+      "id" : 1,
+      "productName" : "Kaos Seal",
+      "price" : 25000,
+      "productImage" : "https://cdn.discordapp.com/attachments/1020655452754804817/1074618985426976808/image.png",
+      "description" : "Seal",
+      "category" : "kaos"
+    },
+    {
+      "id" : 2,
+      "productName" : "Kaos Seal2",
+      "price" : 26000,
+      "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
+      "description" : "Seal",
+      "category" : "kaos"
+    },
+    {
+      "id" : 3,
+      "productName" : "Kaos Seal",
+      "price" : 25000,
+      "productImage" : "https://cdn.discordapp.com/attachments/1020655452754804817/1074618985426976808/image.png",
+      "description" : "Seal",
+      "category" : "kaos"
+    },
+    {
+      "id" : 4,
+      "productName" : "Kaos Seal2",
+      "price" : 26000,
+      "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
+      "description" : "Seal",
+      "category" : "kaos"
+    },
+    {
+      "id" : 5,
+      "productName" : "Kaos Seal",
+      "price" : 25000,
+      "productImage" : "https://cdn.discordapp.com/attachments/1020655452754804817/1074618985426976808/image.png",
+      "description" : "Seal",
+      "category" : "kaos"
+    },
+    {
+      "id" : 6,
+      "productName" : "Kaos Seal2",
+      "price" : 26000,
+      "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
+      "description" : "Seal",
+      "category" : "kaos"
+    },
+    {
+      "id" : 7,
+      "productName" : "Kaos Seal",
+      "price" : 25000,
+      "productImage" : "https://cdn.discordapp.com/attachments/1020655452754804817/1074618985426976808/image.png",
+      "description" : "Seal",
+      "category" : "kaos"
+    },
+    {
+      "id" : 8,
+      "productName" : "Kaos Seal2",
+      "price" : 26000,
+      "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
+      "description" : "Seal",
+      "category" : "kaos"
+    },
+    {
+      "id" : 9,
+      "productName" : "Kaos Seal",
+      "price" : 25000,
+      "productImage" : "https://cdn.discordapp.com/attachments/1020655452754804817/1074618985426976808/image.png",
+      "description" : "Seal",
+      "category" : "kaos"
+    },
+    {
+      "id" : 10,
+      "productName" : "Kaos Seal2",
+      "price" : 26000,
+      "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
+      "description" : "Seal",
+      "category" : "kaos"
+    },
+    {
+      "id" : 11,
+      "productName" : "Kaos Seal",
+      "price" : 25000,
+      "productImage" : "https://cdn.discordapp.com/attachments/1020655452754804817/1074618985426976808/image.png",
+      "description" : "Seal",
+      "category" : "kaos"
+    },
+    {
+      "id" : 12,
+      "productName" : "Kaos Seal2",
+      "price" : 26000,
+      "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
+      "description" : "Seal",
+      "category" : "kaos"
+    },
+    {
+      "id" : 13,
+      "productName" : "Kaos Seal2",
+      "price" : 26000,
+      "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
+      "description" : "Seal",
+      "category" : "kaos"
+    }
+  ],
   "carts": []
 }
