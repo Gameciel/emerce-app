@@ -114,6 +114,14 @@
       "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
       "description" : "Seal",
       "category" : "kaos"
+    },
+    {
+      "id" : 14,
+      "productName" : "Tas Seal",
+      "price" : 125000,
+      "productImage" : "https://i.pinimg.com/236x/a7/f2/41/a7f2416535db5ecc953cfaf013057bc0--baby-seal-cute-cartoon.jpg",
+      "description" : "Seal",
+      "category" : "aksesoris"
     }
   ],
   "carts": []
