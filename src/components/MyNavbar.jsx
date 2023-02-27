@@ -24,13 +24,18 @@ class MyNavbar extends Component {
 		return (
 			<div>
 				<Navbar color="light" light>
-					<NavbarBrand>Emerce</NavbarBrand>
+					<NavbarBrand>
+						<NavLink href="/"> Emerce</NavLink>
+					</NavbarBrand>
 					<Nav>
 						{this.props.userGlobal.username ? (
 							<>
 								<NavItem>
 									<NavbarText>
-										Hello, {this.props.userGlobal.username}
+										Hello,
+										{this.props.userGlobal.role === "admin"
+											? `⭐ ${this.props.userGlobal.username} ⭐`
+											: `${this.props.userGlobal.username}`}
 									</NavbarText>
 								</NavItem>
 								<UncontrolledDropdown nav inNavbar>

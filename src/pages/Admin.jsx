@@ -3,6 +3,7 @@ import Axios from "axios";
 import { API_URL } from "../constants/API";
 import { connect } from "react-redux";
 import { Navigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 class Admin extends Component {
 	state = {
@@ -81,17 +82,22 @@ class Admin extends Component {
 	};
 
 	deleteButtonHandler = id => {
-		const confirmDelete = window.confirm("Yakin deck?");
-
-		if (confirmDelete) {
-			Axios.delete(`${API_URL}/products/${id}`)
-				.then(res => {
-					this.fetchProducts();
-				})
-				.catch(err => {
-					console.log(err);
-				});
-		}
+		Swal.fire({
+			title: "Do you want to delete this item?",
+			showCancelButton: true,
+			confirmButtonText: "Delete",
+		}).then(result => {
+			if (result.isConfirmed) {
+				Swal.fire("Deleted!", "", "success");
+				Axios.delete(`${API_URL}/products/${id}`)
+					.then(res => {
+						this.fetchProducts();
+					})
+					.catch(err => {
+						console.log(err);
+					});
+			}
+		});
 	};
 
 	editToggle = data => {

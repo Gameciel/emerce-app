@@ -62,15 +62,15 @@
     {
       "id": 1,
       "productName": "Kaos Seal",
-      "price": 25000,
+      "price": 125000,
       "productImage": "https://cdn.discordapp.com/attachments/1020655452754804817/1074618985426976808/image.png",
-      "description": "Seal",
+      "description": "Seals",
       "category": "kaos"
     },
     {
       "id": 6,
       "productName": "Kaos Seal2",
-      "price": 26000,
+      "price": 126000,
       "productImage": "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
       "description": "Seal",
       "category": "kaos"
@@ -78,14 +78,14 @@
     {
       "id": 14,
       "productName": "Tas Seal",
-      "price": 125000,
+      "price": 145000,
       "productImage": "https://i.pinimg.com/236x/a7/f2/41/a7f2416535db5ecc953cfaf013057bc0--baby-seal-cute-cartoon.jpg",
       "description": "Seal",
       "category": "aksesoris"
     },
     {
       "productName": "Jaket Seal",
-      "price": "200000",
+      "price": 200000,
       "productImage": "https://secure38.prositehosting.co.uk/aimages/01642/HD-DGY.jpg",
       "description": "Seal",
       "category": "",
@@ -100,11 +100,12 @@
       "id": 16
     },
     {
-      "productName": "",
-      "price": 0,
-      "productImage": "",
-      "category": "",
-      "id": 17
+      "productName": "Sandal Seal",
+      "price": 150000,
+      "productImage": "https://m.media-amazon.com/images/I/51Gb-Bb1PQL._AC_UF894,1000_QL80_.jpg",
+      "category": "aksesoris",
+      "id": 17,
+      "description": "Seal"
     }
   ],
   "carts": []
