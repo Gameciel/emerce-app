@@ -12,7 +12,7 @@ export const registerUser = data => {
 		})
 			.then(res => {
 				delete res.data.password;
-				localStorage.setItem("userDataEmerce", JSON.stringify(res.data[0]));
+				localStorage.setItem("userDataEmerce", JSON.stringify(res.data));
 				dispatch({
 					type: "USER_LOGIN",
 					payload: res.data,

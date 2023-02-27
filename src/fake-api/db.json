@@ -5,123 +5,106 @@
       "username": "dummy",
       "email": "dummy@mail.com",
       "password": "dummy",
-      "role": "user",
+      "role": "admin",
       "id": 1
+    },
+    {
+      "fullName": "dummyuser",
+      "username": "dummyuser",
+      "email": "dummy@user.com",
+      "password": "dummyuser",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "fullName": "1",
+      "username": "1",
+      "email": "1",
+      "password": "1",
+      "role": "user",
+      "id": 3
+    },
+    {
+      "fullName": "2",
+      "username": "22",
+      "email": "2",
+      "password": "2",
+      "role": "user",
+      "id": 4
+    },
+    {
+      "fullName": "",
+      "username": "",
+      "email": "",
+      "password": "",
+      "role": "user",
+      "id": 5
+    },
+    {
+      "fullName": "4",
+      "username": "4",
+      "email": "4",
+      "password": "4",
+      "role": "user",
+      "id": 6
+    },
+    {
+      "fullName": "6",
+      "username": "6",
+      "email": "6",
+      "password": "6",
+      "role": "user",
+      "id": 7
     }
   ],
   "transactions": [],
   "products": [
     {
-      "id" : 1,
-      "productName" : "Kaos Seal",
-      "price" : 25000,
-      "productImage" : "https://cdn.discordapp.com/attachments/1020655452754804817/1074618985426976808/image.png",
-      "description" : "Seal",
-      "category" : "kaos"
+      "id": 1,
+      "productName": "Kaos Seal",
+      "price": 25000,
+      "productImage": "https://cdn.discordapp.com/attachments/1020655452754804817/1074618985426976808/image.png",
+      "description": "Seal",
+      "category": "kaos"
     },
     {
-      "id" : 2,
-      "productName" : "Kaos Seal2",
-      "price" : 26000,
-      "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
-      "description" : "Seal",
-      "category" : "kaos"
+      "id": 6,
+      "productName": "Kaos Seal2",
+      "price": 26000,
+      "productImage": "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
+      "description": "Seal",
+      "category": "kaos"
     },
     {
-      "id" : 3,
-      "productName" : "Kaos Seal",
-      "price" : 25000,
-      "productImage" : "https://cdn.discordapp.com/attachments/1020655452754804817/1074618985426976808/image.png",
-      "description" : "Seal",
-      "category" : "kaos"
+      "id": 14,
+      "productName": "Tas Seal",
+      "price": 125000,
+      "productImage": "https://i.pinimg.com/236x/a7/f2/41/a7f2416535db5ecc953cfaf013057bc0--baby-seal-cute-cartoon.jpg",
+      "description": "Seal",
+      "category": "aksesoris"
     },
     {
-      "id" : 4,
-      "productName" : "Kaos Seal2",
-      "price" : 26000,
-      "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
-      "description" : "Seal",
-      "category" : "kaos"
+      "productName": "Jaket Seal",
+      "price": "200000",
+      "productImage": "https://secure38.prositehosting.co.uk/aimages/01642/HD-DGY.jpg",
+      "description": "Seal",
+      "category": "",
+      "id": 15
     },
     {
-      "id" : 5,
-      "productName" : "Kaos Seal",
-      "price" : 25000,
-      "productImage" : "https://cdn.discordapp.com/attachments/1020655452754804817/1074618985426976808/image.png",
-      "description" : "Seal",
-      "category" : "kaos"
+      "productName": "Topi Seal",
+      "price": 250000,
+      "productImage": "http://sc04.alicdn.com/kf/H9bff877383f34f729686ad660cc5f4d4P.png",
+      "description": "Seal",
+      "category": "aksesoris",
+      "id": 16
     },
     {
-      "id" : 6,
-      "productName" : "Kaos Seal2",
-      "price" : 26000,
-      "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
-      "description" : "Seal",
-      "category" : "kaos"
-    },
-    {
-      "id" : 7,
-      "productName" : "Kaos Seal",
-      "price" : 25000,
-      "productImage" : "https://cdn.discordapp.com/attachments/1020655452754804817/1074618985426976808/image.png",
-      "description" : "Seal",
-      "category" : "kaos"
-    },
-    {
-      "id" : 8,
-      "productName" : "Kaos Seal2",
-      "price" : 26000,
-      "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
-      "description" : "Seal",
-      "category" : "kaos"
-    },
-    {
-      "id" : 9,
-      "productName" : "Kaos Seal",
-      "price" : 25000,
-      "productImage" : "https://cdn.discordapp.com/attachments/1020655452754804817/1074618985426976808/image.png",
-      "description" : "Seal",
-      "category" : "kaos"
-    },
-    {
-      "id" : 10,
-      "productName" : "Kaos Seal2",
-      "price" : 26000,
-      "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
-      "description" : "Seal",
-      "category" : "kaos"
-    },
-    {
-      "id" : 11,
-      "productName" : "Kaos Seal",
-      "price" : 25000,
-      "productImage" : "https://cdn.discordapp.com/attachments/1020655452754804817/1074618985426976808/image.png",
-      "description" : "Seal",
-      "category" : "kaos"
-    },
-    {
-      "id" : 12,
-      "productName" : "Kaos Seal2",
-      "price" : 26000,
-      "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
-      "description" : "Seal",
-      "category" : "kaos"
-    },
-    {
-      "id" : 13,
-      "productName" : "Kaos Seal2",
-      "price" : 26000,
-      "productImage" : "https://i.etsystatic.com/12431793/r/il/cf40bb/1915762978/il_570xN.1915762978_jlw1.jpg",
-      "description" : "Seal",
-      "category" : "kaos"
-    },
-    {
-      "id" : 14,
-      "productName" : "Tas Seal",
-      "price" : 125000,
-      "productImage" : "https://i.pinimg.com/236x/a7/f2/41/a7f2416535db5ecc953cfaf013057bc0--baby-seal-cute-cartoon.jpg",
-      "description" : "Seal",
-      "category" : "aksesoris"
+      "productName": "",
+      "price": 0,
+      "productImage": "",
+      "category": "",
+      "id": 17
     }
   ],
   "carts": []
