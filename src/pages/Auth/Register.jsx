@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 
 import { connect } from "react-redux";
 import { registerUser } from "../../redux/actions/user";
@@ -22,6 +22,9 @@ class Register extends Component {
 	};
 
 	render() {
+		if (this.props.userGlobal.username) {
+			return <Navigate to="/" />;
+		}
 		return (
 			<div className="container">
 				<div className="row">
@@ -84,8 +87,10 @@ class Register extends Component {
 	}
 }
 
-const mapStateToProps = () => {
-	return {};
+const mapStateToProps = state => {
+	return {
+		userGlobal: state.user,
+	};
 };
 
 const mapDispatchToProps = {

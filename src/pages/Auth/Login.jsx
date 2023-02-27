@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, redirect } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
 import { connect } from "react-redux";
 
 import { userLogin } from "../../redux/actions/user";
@@ -21,7 +21,7 @@ class Login extends Component {
 
 	render() {
 		if (this.props.userGlobal.username) {
-			return <redirect to="/" />;
+			return <Navigate to="/" />;
 		}
 		return (
 			<div className="container">
