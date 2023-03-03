@@ -9,8 +9,9 @@ import Admin from "./pages/Admin";
 import Cart from "./pages/Cart";
 import History from "./pages/History";
 import Home from "./pages/Home";
-import ProductDetail from "./pages/ProductDetail";
 
+// import ProductDetail from "./pages/ProductDetail";
+import ProductDetailFunctional from "./pages/ProductDetailFunctional";
 import MyNavbar from "./components/MyNavbar";
 
 import Login from "./pages/Auth/Login";
@@ -40,7 +41,13 @@ class App extends Component {
 					<Routes>
 						<Route element={<Cart />} path="/cart" />
 						<Route element={<History />} path="/history" />
-						<Route element={<ProductDetail />} path="/detail" />
+						<Route
+							element={
+								<ProductDetailFunctional data={this.props.userGlobal.id} />
+							}
+							path="/detail/:id"
+						/>
+						{/* <Route element={<ProductDetail />} path="/detail/:id" /> */}
 						<Route element={<Login />} path="/login" />
 						<Route element={<Register />} path="/register" />
 						<Route element={<Admin />} path="/admin" />

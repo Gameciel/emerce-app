@@ -18,14 +18,54 @@ import {
 import { userLogout } from "../redux/actions/user";
 
 import { Link } from "react-router-dom";
+import Axios from "axios";
+import { API_URL } from "../constants/API";
 
 class MyNavbar extends Component {
+	state = {
+		uniqueItem: 0,
+		hasLoaded: false,
+	};
+
+	componentDidMount() {
+		Axios.get(`${API_URL}/carts`, {
+			params: {
+				userId: this.props.userGlobal.id,
+			},
+		}).then(res => {
+			this.setState({ uniqueItem: res.data.length });
+			this.setState({ hasLoaded: true });
+		});
+	}
+
+	loadData = () => {
+		return <Link to="/cart">Cart: ({this.state.uniqueItem})</Link>;
+	};
+
+	componentDidUpdate() {
+		let newData;
+
+		Axios.get(`${API_URL}/carts`, {
+			params: {
+				userId: this.props.userGlobal.id,
+			},
+		})
+			.then(res => {
+				newData = res.data.length;
+			})
+			.then(() => {
+				if (newData !== this.state.uniqueItem) {
+					this.setState({ uniqueItem: newData });
+				}
+			});
+	}
+
 	render() {
 		return (
 			<div>
 				<Navbar color="light" light>
 					<NavbarBrand>
-						<NavLink href="/"> Emerce</NavLink>
+						<NavLink href="/">Emerce</NavLink>
 					</NavbarBrand>
 					<Nav>
 						{this.props.userGlobal.username ? (
@@ -43,9 +83,7 @@ class MyNavbar extends Component {
 										Pages
 									</DropdownToggle>
 									<DropdownMenu right>
-										<DropdownItem>
-											<Link to="/cart">Cart</Link>
-										</DropdownItem>
+										<DropdownItem>{this.loadData()}</DropdownItem>
 										<DropdownItem>
 											<Link to="/history">History</Link>
 										</DropdownItem>

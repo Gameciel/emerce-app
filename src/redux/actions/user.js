@@ -1,6 +1,13 @@
 import Axios from "axios";
 import { API_URL } from "../../constants/API";
 
+// export const addToCart = amount => {
+// 	return {
+// 		type: "ADD_CART",
+// 		payload: parseInt(amount),
+// 	};
+// };
+
 export const registerUser = data => {
 	return dispatch => {
 		Axios.post(`${API_URL}/users`, {

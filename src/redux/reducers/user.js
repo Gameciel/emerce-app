@@ -5,11 +5,15 @@ const init_state = {
 	role: "",
 	id: 0,
 	errMsg: "",
+	uniqueItem: 0,
 	storageIsChecked: false,
 };
 
 const userReducer = (state = init_state, action) => {
 	switch (action.type) {
+		// case "ADD_CART":
+		// 	return { ...state, uniqueItem: action.payload };
+
 		case "USER_LOGIN":
 			return { ...state, ...action.payload, storageIsChecked: true };
 
