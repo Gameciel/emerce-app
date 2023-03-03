@@ -3,7 +3,7 @@ import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
 
 import React, { Component } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Admin from "./pages/Admin";
 import Cart from "./pages/Cart";
@@ -38,21 +38,20 @@ class App extends Component {
 			return (
 				<BrowserRouter>
 					<MyNavbar />
-					<Routes>
-						<Route element={<Cart />} path="/cart" />
-						<Route element={<History />} path="/history" />
+					<Switch>
+						<Route component={Cart} path="/cart" />
+						<Route component={History} path="/history" />
 						<Route
-							element={
-								<ProductDetailFunctional data={this.props.userGlobal.id} />
-							}
+							component={ProductDetailFunctional}
+							data={this.props.userGlobal.id}
 							path="/detail/:id"
 						/>
-						{/* <Route element={<ProductDetail />} path="/detail/:id" /> */}
-						<Route element={<Login />} path="/login" />
-						<Route element={<Register />} path="/register" />
-						<Route element={<Admin />} path="/admin" />
-						<Route element={<Home />} path="/" />
-					</Routes>
+						{/* <Route component={<ProductDetail />} path="/detail/:id" /> */}
+						<Route component={<Login />} path="/login" />
+						<Route component={<Register />} path="/register" />
+						<Route component={<Admin />} path="/admin" />
+						<Route component={Home} path="/" />
+					</Switch>
 				</BrowserRouter>
 			);
 		} else {

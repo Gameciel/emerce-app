@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link, Navigate } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 
 import { connect } from "react-redux";
 import { registerUser } from "../../redux/actions/user";
@@ -23,7 +23,7 @@ class Register extends Component {
 
 	render() {
 		if (this.props.userGlobal.username) {
-			return <Navigate to="/" />;
+			return <Redirect to="/" />;
 		}
 		return (
 			<div className="container">

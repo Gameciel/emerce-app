@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Axios from "axios";
 import { API_URL } from "../constants/API";
 import { connect } from "react-redux";
-import { Navigate } from "react-router-dom";
+import { Redirect } from "react-router-dom";
 import Swal from "sweetalert2";
 
 class Admin extends Component {
@@ -220,7 +220,7 @@ class Admin extends Component {
 
 	render() {
 		if (this.props.userGlobal.role !== "admin") {
-			return <Navigate to="/" />;
+			return <Redirect to="/" />;
 		}
 		return (
 			<div className="p-5">
